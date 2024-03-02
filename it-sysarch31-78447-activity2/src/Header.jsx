@@ -2,9 +2,10 @@ function Header(){
 
     return(
         <header>
-            <h1>Chiara</h1>
+            
             <nav>
                 <ul>
+                    <li id="Logo"><a href="#">Chiara</a></li>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Services</a></li>

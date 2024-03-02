@@ -26,3 +26,47 @@
   font-family: Arial, sans-serif;
   color: hsl(0,0%,20%);
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 5px;
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial, sans-serif;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+#Logo{
+  margin-right: 50px;
+  font-size: 20px;
+}
+#Logo a:hover{
+  background-color: #333;
+}
+
+.footer {
+  font-family: Arial, sans-serif;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  padding-left: 15px;
+}
