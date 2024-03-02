@@ -2,8 +2,7 @@ function Header(){
 
     return(
         <header>
-            
-            <nav>
+            <nav className="navi">
                 <ul>
                     <li id="Logo"><a href="#">Chiara</a></li>
                     <li><a href="#">Home</a></li>
@@ -12,7 +11,6 @@ function Header(){
                     <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
-            <hr></hr>
         </header>
     );
 
